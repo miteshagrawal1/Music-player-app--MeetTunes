@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(255, 217, 0);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    background-color: rgb(52, 2, 52);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+nav ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+nav ul li span{
+    font-size: 20px;
+}
+nav ul li img{
+    border-radius: 20px;
+}
+.box{
+    background-color: rgb(52, 2, 52);
+    width: 85%;
+    height: 80%;
+    /* margin: 7px auto; */
+    margin: 0.2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box div{
+    border: 2px solid rgb(255, 255, 255);
+    width: 23%;
+    margin: 0px 10px;
+    height: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    overflow: hidden;
+    /* background-image: url('mylogo.png'); */
+}
+.one img{
+    object-fit: cover;
+}
+.box div:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+.footer{
+    background-color: rgb(52, 2, 52);
+    color: white;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#range{
+    min-width: 60%;
+    margin: 10px auto;
+    cursor: pointer;
+}
+#gif{
+    opacity: 0;
+    padding: 0 20px;
+    transition: opacity 0.5s ease-in;
+}
+#songname{
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 1000;
+}
